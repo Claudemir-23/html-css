@@ -1,0 +1,27 @@
+@ charset  UTF-8 ;
+
+bady {
+    background-color: rgb(225, 231, 191);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(10, 128, 102);
+    
+}
+h1#principal {
+    text-align: center;
+    background-color: rgb(13, 167, 167);
+    color: white;
+}
+h2{
+    color: rgb(62, 109, 131);
+}
+.basico {
+    color: rgb(54, 151, 54);
+}
+.intermediario {
+    color: rgb(93, 93, 141);
+}
+.avancado {
+    color: rgb(218, 10, 52);
+}
