@@ -19,6 +19,11 @@ body {
     margin: 0;
     font-size: 24px;
  }
+ nav {
+   background-color: darkturquoise;
+   padding: 5px;
+  
+ }
  nav ul {
     list-style-type: none;
     padding: 0;
@@ -32,6 +37,9 @@ body {
  nav ul p a {
     color: #332779;
     text-decoration: none; 
+    padding: 10px;
+    text-decoration: none;
+    t
 
  }
  img {
