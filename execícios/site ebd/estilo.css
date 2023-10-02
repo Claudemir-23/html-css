@@ -52,7 +52,7 @@ body {
  img {
     padding: 0px 150px;
    border: 2px solid #8d959ed3;
-   position: relative;
+   position: static;
    
  }
 
