@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-* {
-    
-}
 
 body {
     background-color: #8c8aa7;
@@ -10,7 +7,7 @@ body {
     margin: 0px;
 }
 .container {
-    max-width: 800px;
+    max-width: 700px;
     margin: 0px auto;
     padding: 20px;
 }
@@ -34,9 +31,6 @@ nav ul li a:hover {
     background-color: rgb(131, 164, 224);
     color: #000;
 }
-.page2 #h2 {
-    background-color:dodgerblue;
-
-
+.page2 nav {
+    background-color: rgb(69, 139, 69);
 }
-
