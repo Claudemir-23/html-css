@@ -13,16 +13,32 @@
     </header>
     <nav>
         <ul>
-           
+            <li><a href="index.html">Pagina 1</a></li>
+
            <li><a href="page2.html">Pagina 2</a></li>
 
         </ul>
     </nav>
     <main>
         <div class="container" id="content">conteúdo do site</div>
-        <script> src= "script.js"/script>
+       
     </main>
     
-  
+  <script>
+    window.onload= function() {
+        const page1= document.getElementById("page1");
+        const page2= document.getElementById("page2");
+        const content= document.getElementById("content");
+
+        page1.addEventListener("click", function(){
+            content.innerHTML= "<h2>página 1</h2><p>conteúdo da página 1...</p>"; });
+
+        page2.addEventListener("click", function(){
+        content.innerHTML= "<h2>página 2</h2><p>conteúdo da página 2...</p>"; });
+
+    }
+
+
+  </script>
 </body>
 </html>
