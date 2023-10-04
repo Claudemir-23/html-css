@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
 body {
-    background-color: rgb(103, 103, 131);
+    background-color: rgb(200, 200, 214);
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+   
+}
+th, td {
+    background-color: rgb(163, 133, 133);
 }
