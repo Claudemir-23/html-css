@@ -29,11 +29,13 @@ header {
     text-align: center;
 }
 header > h1 {
+    
     padding-top: 50px;
     font-variant: small-caps;
     font-family:var(--fonte2)
+    
 }
-header > P {
+header > p {
     padding-bottom: 50px;
 }
  header a, footer a {
@@ -65,18 +67,25 @@ section.normal {
 section.imagem {
     background-color: rgb(83, 81, 81);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.541);
+    background-attachment: fixed;
+
 }
-section.imagem >p {
+section.imagem > p {
    display:inline-block;
    padding: 5px;
-    background-color: rgb(58, 55, 55);
+    background-color: rgba(58, 55, 55, 0.555);
+    text-shadow: 1px 1px opx black;
 }
 section#img01 {
     background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
 
 }
 section#img02 {
     background-image: url('../imagens/background002.jpg');
+    background-size: cover;
 
 }
 footer {
